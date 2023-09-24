@@ -1,0 +1,149 @@
+
+/*css de la primera imagene de nicola tesla  */
+
+.nicola{
+  width: 250px;
+  height: 250px;
+  margin: 1px;
+  margin-right:20px;
+
+  border-radius: 20px;
+}
+
+/*css de la lista de nicola tesla */
+
+.conteiner{
+  display: flex;
+ justify-content: center;
+}
+
+/*css de los premios de nicola tesla */
+/*nav > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}*/
+
+
+
+body{
+    
+    margin: 10;
+    border: black solid 2px;
+    background-color: rgb(126, 128, 129);
+    position: absolute;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  header{
+    display: flex;
+    min-height: 70px;
+    background-color: brown;
+    justify-content: space-between;
+     align-items: center;
+    padding: 10px;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+  }
+ .logo img{
+   height: 50px;
+   
+   width: 50px;
+   align-items: 10px;
+   margin-top: 10px;
+   margin-left: 20px;
+   border-radius: 0%;
+  
+  
+  }
+  nav  a{
+    font-weight: 600;
+    padding-right: 10px;
+  }
+  nav a:hover{
+    color: white;
+  }
+  @media (max-width:700px){
+    header{
+     flex-direction: column;
+    }
+    nav{
+      padding: 10px 0px;
+    }
+  }
+/*centrar h1*/
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family:lucida ;
+
+  
+}
+
+div{
+  display: flex;
+}
+div img{
+  width: 300px;
+  height: 350px;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+p{
+ margin-top: 100px;
+  margin-right: 100px;
+  
+ 
+}
+.centro{
+ 
+  text-align: center;
+}
+.orden{
+  display: block;
+}
+.orden p{
+ 
+  margin-right: 20px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+nav ul{
+  text-align: center;
+  list-style-type: none;
+}
+
+footer{
+  
+   background-color: rgb(36, 135, 206);
+  padding: 0px 0px 50px 90px;
+  bottom: 0;
+   margin-top: auto;
+    text-align: center;
+   
+}
+.centrado p{
+  text-align: center;
+}
+
+.footer-right a {
+  color:black;
+  text-decoration: none;
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
+}
+footer p{
+  color:black;
+}
